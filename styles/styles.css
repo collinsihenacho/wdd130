@@ -1,13 +1,16 @@
 nav {
     background-color: #C0C0C0;
+    color: #000000;
     padding: 10px;
 }
 nav a {
+    background-color: bisque;
     color: #FFC107;
     display: block;
     padding: 20px;
 }
 h1  {
+    background-color: bisque;
    color: #FFC107;
 }
 img  {
@@ -44,5 +47,5 @@ main img {
 footer {
     margin-top: 15px;
     border-top: 1px solid #FFC107; 
-    text-align: "center"
+    text-align: center;
 }
