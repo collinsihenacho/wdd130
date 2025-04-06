@@ -1,105 +1,114 @@
- /* rafting.css */
+  /* rafting.css */
+/* 1. Define CSS Variables */
 :root {
     --primary-color: #01579B;
     --secondary-color: #00ACC1;
     --accent1-color: #FF7043;
     --accent2-color: #ECEFF1;
-    --text-color: #212121;
 }
 
-body {
-    font-family: 'Oswald', sans-serif;
-    color: var(--text-color);
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+/* 2. Style Headings & Paragraphs */
+.hero h1 {
+    font-family:'Bangers';
+    color:#FF7043;
+    font-size: 6rem;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 0;
+    line-height: 1;
+    z-index: 2;
+    }
 
-/* Heading styles */
-h1, h2, h3 {
+
+ h2, h3 {
     font-family: 'Bangers', cursive;
-    color: var(--primary-color);
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
+    color: #01579B;
     font-size: 2rem;
 }
 
-h3 {
-    font-size: 1.75rem;
-}
-
-/* Paragraph styles */
 p {
-    line-height: 1.6;
-    font-size: 1.1rem;
-    color: var(--text-color);
+    font-family: 'Oswald', sans-serif;
+    color: #00ACC1;
 }
 
-/* Hero Section */
-.hero {
-    position: relative;
-    margin: 20px 0;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    max-width: 300px;
-}
-
-.hero article img {
-    float: right;
-    margin-left: 15px;
-    width: 120px;
-    height: auto;
-}
-
-/* Social Media Links */
+/* 3. Social Media Links */
 footer .Sociallinks a {
     text-decoration: none;
 }
 
-footer .Sociallinks img {
-    width: 32px;
-    height: 32px;
-    margin: 0 10px;
+/* 4. Page Width */
+body {
+    
+    margin: 0 ;
+    padding:0;
 }
 
-/* History Section */
-section h2 {
-    margin: 30px 0 15px;
+/* 5. Hero Container */
+.hero {
+    position: relative;
+    height: 50vh;
+    padding:0;
 }
 
-/* Adventure Section */
-section h3 {
-    margin: 30px 0 15px;
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
 }
 
-/* Responsive Images */
-img {
-    max-width: 100%;
-    height: auto;
+ 
+/* Adjust hero article positioning */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;  /* Changed from right to left */
+    display: flex;
+    align-items: end;
+    gap: 15px;
+    padding: 15px;
+    max-width: 500px;
+    font-size: 1em;
+}
+
+/* Adjust image size and floating */
+ 
+.hero article img{
+    width: 200px; /* Reduced image size */
+    height: 150px; /* Fixed height */
+    object-fit: cover;
+    margin: 0; /* Remove float margins */
+    order: 10; /* Move image to right side */
+}
+.hero article p{
+    flex: 1;
+    margin: 0;
+    order: 1;
+    color: #FF7043;
+}
+/* Target the adventure section */
+section:nth-of-type(2) {
+    white-space: nowrap;       /* Prevent wrapping */
+    overflow-x: auto;         /* Add scroll if needed */
+    padding: 20px 0;
+}
+
+/* Style all images in the section */
+section:nth-of-type(2) img {
+    display: inline-block;    /* Display in a line */
+    width: 270px;            /* Reduced width */
+    height: 200px;           /* Fixed height */
+    object-fit: cover;        /* Maintain aspect ratio */
+    margin-right: 15px;      /* Space between images */
+    vertical-align: middle;  /* Align properly */
+}
+footer.Sociallinks a{
+    text-decoration: none;
+}
+footer img{
+    width: 30px;
 }
