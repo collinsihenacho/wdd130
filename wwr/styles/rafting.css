@@ -63,7 +63,7 @@ h1 {
 	border-bottom: 1px solid var(--secondary-color);
     position: absolute;
     top: 40px;
-    right: 500px;
+    right: 600px;
     color: antiquewhite;
     background: var(--secondary-color);
     border: var(--border);
@@ -84,8 +84,8 @@ article {
 }
 .navigation3 a {
     position: absolute;
-    top: 900px;
-    right: 1000px;
+    top: 780px;
+    right: 1080px;
     padding: 10px;
 	text-decoration: solid;
     margin: 10px;
@@ -204,7 +204,7 @@ button {
 }
 .form {
     position: absolute;
-    top: 1358px;
+    top: 1238px;
     right: 120px;
 }
 .form h2 {
@@ -251,8 +251,8 @@ button {
 }
 .navigation2 a {
     position: absolute;
-    top: 2050px;
-    right: 790px;
+    top: 1800px;
+    right: 190px;
     padding: 10px;
 	text-decoration: solid;
     margin: 10px;
@@ -267,7 +267,7 @@ h4 {
 }
 .offerings {
     position: absolute;
-    top: 2749px;
+    top: 2549px;
     right: 250px;
     background-color: black;
     text-align: center;
@@ -279,7 +279,7 @@ h4 {
 }
 .purposes {
     position: absolute;
-    top: 2350px;
+    top: 2180px;
     right: 290px;
     background-color: black;
     text-align: center;
@@ -291,7 +291,7 @@ h4 {
 }
 .trips h2{
     position: absolute;
-    top: 800px;
+    top: 700px;
     right: 400px;
     color: #ffffff;
     font-size: 2rem;
@@ -317,9 +317,9 @@ h4 {
     display: grid;
     position: absolute;
     top: 1200px;
-    right: 400px;
+    right: 650px;
     padding: 15px;
-    width: 500px;
+    width: 200px;
 	text-decoration: solid;
     border: 1px solid var(--secondary-color);
     background-color: darkmagenta;
@@ -328,43 +328,43 @@ h4 {
 .udu p {
     display: grid;
     position: absolute;
-    top: 1400px;
-    right: 1000px;
+    top: 1550px;
+    right: 1200px;
 
 }
 .udu2 p {
     display: grid;
     position: absolute;
-    top: 1400px;
-    right: 600px;
+    top: 1550px;
+    right: 800px;
 
 }
 .udu3 p {
     display: grid;
     position: absolute;
-    top: 1400px;
-    right: 230px;
+    top: 1550px;
+    right: 390px;
  
 }
 .udu4 p {
     display: grid;
     position: absolute;
-    top: 1850px;
-    right: 800px;
+    top: 2000px;
+    right: 920px;
 
 }
 .udu5 p {
     display: grid;
     position: absolute;
-    top: 1850px;
-    right: 400px;
+    top: 2000px;
+    right: 500px;
   
 }
 .navigation5 a {
     display: grid;
     position: absolute;
-    top: 1720px;
-    right: 990px;
+    top: 1498px;
+    right: 1200px;
     padding: 15px;
 	text-decoration: solid;
     background-color: darkmagenta;
@@ -373,8 +373,8 @@ h4 {
 .navigation6 a {
     display: grid;
     position: absolute;
-    top: 1720px;
-    right: 620px;
+    top: 1498px;
+    right: 800px;
     padding: 15px;
 	text-decoration: solid;
     background-color: darkmagenta;
@@ -383,8 +383,8 @@ h4 {
 .navigation7 a {
     display: grid;
     position: absolute;
-    top: 1720px;
-    right: 250px;
+    top: 1498px;
+    right: 400px;
     padding: 15px;
 	text-decoration: solid;
     background-color: darkmagenta;
@@ -393,8 +393,8 @@ h4 {
 .navigation8 a {
     display: grid;
     position: absolute;
-    top: 2160px;
-    right: 830px;
+    top: 1930px;
+    right: 930px;
     padding: 15px;
 	text-decoration: solid;
     background-color: darkmagenta;
@@ -403,8 +403,8 @@ h4 {
 .navigation9 a {
     display: grid;
     position: absolute;
-    top: 2160px;
-    right: 450px;
+    top: 1930px;
+    right: 540px;
     padding: 15px;
 	text-decoration: solid;
     background-color: darkmagenta;
