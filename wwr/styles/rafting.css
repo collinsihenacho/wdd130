@@ -155,12 +155,12 @@ figure {
     margin: 10px;
     position: relative;
 }
-.history h4 {
+.history h3 {
     position: absolute;
     top: 1px;
-    right: 20px;
+    left: 980px;
     color: #111;
-    font-size: 1rem;
+    font-size: 17px;
 }
 .newslatter h3{
     text-align: center;
