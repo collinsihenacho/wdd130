@@ -48,7 +48,7 @@ main {
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 500px;
 }
 .hero {
     margin: 10px auto;
@@ -72,27 +72,33 @@ article {
 	right: 500px;
 	padding: var(--padding);
     width: 15%;
-    height: 10%;
+    height: 10px;
     bottom: 25px;
 	right: 50px;
     color: var(--accent-3);
     text-align: left;
 }
+
 h2 {
     margin: 1rem;
     font-size: 2em;
     color: #ff4500;
     text-align: center;
 }
-.abibest h3{
+.dryoar h3{
     position: absolute;
-    top: 2100px;
-    right: 480px;
+    top: 2000px;
+    right: 500px;
     color: #ff4500;
+}
+.dryoar p{
+    position: absolute;
+    top: 2050px;
+    right: 430px;
 }
 .office {
     position: absolute;
-    top: 2350px;
+    top: 2000px;
     right: 135px;
 }
 .office h3 {
@@ -101,13 +107,13 @@ h2 {
 }
 .office2 {
     position: absolute;
-    top: 2550px;
+    top: 2200px;
     right: 150px;
 }
 .map {
     position: absolute;
-    top: 1250px;
-    right: 120px;
+    top: 1000px;
+    right: 50px;
     
 }
 .address {
